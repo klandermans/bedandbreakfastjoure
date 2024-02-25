@@ -1,0 +1,108 @@
+p img {
+    
+    margin:50px;
+}
+html {
+    height          : 100%;
+    width           : 100%;
+}
+#siteBCK {
+	width					: 100%;
+	height					: 100%;
+	position				: fixed;
+	z-index					: -1;
+	left					: 0;
+	top						: 0;
+}
+body {
+	margin-left     : 0px;
+	margin-top      : 0px;
+	margin-right    : 0px;
+	margin-bottom   : 0px;
+	padding-bottom	: 25px;
+    width           : 100%;
+}
+.content {
+    max-width           : 850px;
+    width:100%;
+    
+    margin-left     : auto;
+    margin-right    : auto;
+
+    margin-top		: 20px;
+	margin-bottom	: 20px;    
+    
+    background      : #ffffff;
+
+    padding-left    : 25px;
+    padding-right   : 25px;
+    padding-top     : 5px;
+	  padding-bottom	: 25px;
+    border			: 6px solid #222222;
+}
+.logo {
+	margin-top:15px;
+	margin-bottom:15px;
+  width:100%;
+
+}	
+@media only screen and (max-width: 400px) {
+  .logo img
+  {
+    width:230px !important;
+     height:17px !important;
+  }
+}
+
+a:link {
+	color           : #006600;
+	text-decoration : none;
+}
+a:visited {
+	text-decoration : none;
+	color           : #006600;
+}
+a:hover {
+	text-decoration : underline;
+	color           : #E02474;
+}
+a:active {
+	text-decoration : none;
+	color           : #006600;
+}
+.componentheading, html body h1,html body  h2,html body h3,html body  h4, html body h5,html body  h6 {
+	color           : #006600 !important;
+}
+.contentheading {
+}
+hr{
+    width           : 100%;
+	height          : 0;
+	border          : 0;
+	border-top      : 1px dotted #cccccc;
+}
+.menu {
+  margin-top		: 10px;
+  margin-bottom     : 30px;
+  font-weight		: bold;
+}
+.klein {
+  /*font-size         : 9px;*/
+}
+.contact {
+	border-right      : 1px dotted #cccccc;
+	float 			  : left;
+}
+.contact2 {
+    float:left;	
+}
+.groot {
+	text-decoration : bold;
+	color           : #006600;
+    font-weight     : bold;
+    font-size       : 20px;	
+}=
+ .img.imageborder, #imageborder {
+	border			: 4px solid #222222;
+    width:90%;
+}
